@@ -1,5 +1,5 @@
-## Ship Battle Game - Client Server Application
-#Description
+# Ship Battle Game - Client Server Application
+##Description
 The project consists of the development of a client/server. Both the server and the client must be mono-process and exploit the I/O multiplexing to handle multiple inputs and outputs simultaneously. The application to be developed is the game of SHIP BATTLE following the paradigm peer2peer. The server will be responsible for storing users connected and the ports.
 
 The exchange of information between client and server will be through TCP sockets. This information will only control information that will be used to implement the communication peer2peer. Exchange text messages between clients will be via UDP socket.
